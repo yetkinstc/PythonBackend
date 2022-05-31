@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{%  static 'style.css' %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="conteiner">
+
+    
+    <div class="Small" style="background-color: aqua;"><button class="button button1">
+    <a href="myP">  {{ a}} adlı kişinin profili</a> 
+    <button class="button button1">
+        <a href="logout">  Oturum Kapat</a>   
+    </button><form method="POST">
+        <textarea name="text">Ne düşünüyorsun</textarea>
+        <button tpye="submit"> Paylaş</button>
+
+      </form>
+    </div>
+      
+    <div class="Big">
+
+        <h1>Ana Sayfan</h1>
+        
+        <ul>
+            {% for a in feed %}
+    
+                <li><h2>{{ a.userId }}</h1>
+                    <br>
+                    Post:{{ a.title}}
+                </li>
+            {% endfor %}
+              </ul>
+     
+
+
+    </div>
+</div>
+</body>
+</html>

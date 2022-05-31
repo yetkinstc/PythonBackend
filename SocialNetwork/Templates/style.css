@@ -1,0 +1,56 @@
+#conteiner{
+    height: 100vh;
+    height: 100%;
+    width: 100vh;
+    width: 100%;
+
+    position: absolute;
+    background-color: blue;
+}
+div.Small{
+    background-color: aqua;
+    float: left;
+    margin-top: 0%;
+    
+    float: left;
+    
+    margin-left: 0%;
+    margin-right: 0;
+    height: 20%;
+    width: 100vh;
+
+
+}
+div.Big{
+    background-color: antiquewhite;
+    
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 70%;
+    width: 100vh;
+    float:left;
+    margin-bottom: 0%;
+
+}
+body{
+    height:100%;
+    height:100vh;
+}
+textarea {
+    display: block;
+    position: center;
+    width: 70%;
+    height: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  .button1 {
+      position: relative;
+      margin-left: 0%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
